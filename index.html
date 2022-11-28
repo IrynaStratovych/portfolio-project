@@ -17,6 +17,11 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+        <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/00addeea75.js"
       crossorigin="anonymous"
@@ -26,6 +31,35 @@
     <title>Portfolio</title>
   </head>
   <body>
+       <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="Homepage">Iryna Stratovych</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" title="go to Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="Learn more about me">About me</a>
+            </li>
+                        <li class="nav-item">
+              <a class="nav-link" href="about.html#contact" title="Contact Me">Contact me</a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋 Hi I am</p>
       <h1>Iryna Stratovych</h1>
@@ -36,7 +70,7 @@
     </div>
       <br />
       <div class="projects-heading">
-        Featured Project which my best projects be choice to show
+        Featured Projects and accomplishments
       </div>
       <div class="container">
         <div class="row">
@@ -58,7 +92,7 @@
             <div class="mt-5 launch-app">
               <a
                 href=""
-                class="btn btn-primary primary-link"
+                class="app-btn btn btn-primary primary-link"
                 href="#"
                 title="Launch Yoga application"
                 >Learn More</a
@@ -82,7 +116,7 @@
             <div class="mt-5 launch-app">
               <a
                 href=""
-                class="btn btn-primary primary-link"
+                class="app-btn btn btn-primary primary-link"
                 href="#"
                 title="Launch weather application"
                 >Learn More</a
@@ -121,7 +155,7 @@
             <div class="mt-5 launch-app">
               <a
                 href=""
-                class="btn btn-primary primary-link"
+                class="app-btn btn btn-primary primary-link"
                 href="#"
                 title="Learn more about the certificate"
                 >Learn More</a
@@ -130,17 +164,25 @@
           </div>
         </div>
       </div>
-      <div class="d-flex">
-        <div class="col-md-6"><h3>Work Inquiry</h3>
-                        <p>
-            Let's work  together and i'll help you by all my best</p>
-            
-        </div>
-
-        <a href="" class="col-md-6 btn btn-primary">Let's talk here</a>
-      </div>
-
-
+          <div class="container">
+            <div class="row">
+              <div class="work-inquiry d-flex mx-auto">
+                <div class="col-sm-6">
+                  <h3>For work</h3>
+                </div>
+                <div class="col-sm-6">
+                <a href="mailto:iriaseraya@gmail.com" class="contact-btn btn btn-primary">Contact Me</a>
+                </div>
+              </div>
+              <div class="contact-icons container d-flex align-content-lg-center flex-wrap">
+                <div class="row mx-auto">
+                <div class="col-sm-4"><a href="#"><i class="fa-brands fa-telegram"></i></a></div>
+                <div class="col-sm-4"><a href="#"><i class="fa-brands fa-github"></i></a></div>
+                <div class="col-sm-4"><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
   </body>
 </html>
